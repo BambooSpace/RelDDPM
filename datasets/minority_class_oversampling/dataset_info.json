@@ -15,10 +15,50 @@
         "epochs": 10
     },
 
-    "weatherAUS":{
-        "label": "label",
+    "adult":{
+        "label": "income",
         "minority_classes": [1],
-        "n_samples": [25288],
+        "n_samples": [1000],
+        "average": "binary",
+        "epochs": 10
+    },
+
+    "bank":{
+        "label": "y",
+        "minority_classes": [1],
+        "n_samples": [1000],
+        "average": "binary",
+        "epochs": 10
+    },
+
+    "compas":{
+        "label": "AssessmentType",
+        "minority_classes": [1],
+        "n_samples": [1000],
+        "average": "binary",
+        "epochs": 10
+    },
+
+    "german":{
+        "label": "class",
+        "minority_classes": [1],
+        "n_samples": [1000],
+        "average": "binary",
+        "epochs": 10
+    },
+
+    "loan":{
+        "label": "Default",
+        "minority_classes": [1],
+        "n_samples": [1000],
+        "average": "binary",
+        "epochs": 10
+    },
+
+    "proPublica":{
+        "label": "AssessmentType",
+        "minority_classes": [1],
+        "n_samples": [1000],
         "average": "binary",
         "epochs": 10
     }
